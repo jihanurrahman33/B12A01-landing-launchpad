@@ -1,93 +1,145 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.header{
+.header {
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
     height: 698px;
     background-repeat: no-repeat;
-    
+
 }
-.nav-section{
+
+.nav-section {
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
 }
-.nav-logo{
+
+.nav-logo {
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
 }
-.nav-btn{
+
+.nav-btn {
     padding: 12px 36px;
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
-   
+
 }
-.nav-btn a{
+
+.nav-btn a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 }
 
-.hero-text{
+.hero-text {
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
     color: #252432;
 }
-.hero-btn{
+
+.hero-btn {
     border-radius: 10px;
     background-color: #4E47FF;
     padding: 12px 36px;
     border: none;
 }
-.hero-btn a{
+
+.hero-btn a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 }
-.hero-container{
+
+.hero-container {
     text-align: center;
     margin: 152px 267px;
-    
+
 }
 
-.text-image-container{
+.text-image-container {
     display: flex;
     gap: 220px;
     align-items: center;
     margin: 141px 116px;
 }
-.image-container img{
+
+.image-container img {
     border-radius: 48px;
     width: 403px;
     height: 328px;
 }
 
-.text-btn-container h3{
+.text-btn-container h3 {
     font-size: 42px;
     color: #252432;
     margin-bottom: 23px;
 }
-.text-btn-container p{
+
+.text-btn-container p {
     color: #252432a5;
     margin-bottom: 23px;
 }
-.text-btn-con-btn{
+
+.text-btn-con-btn {
     border-radius: 10px;
     background-color: #4E47FF;
     padding: 12px 36px;
     border: none;
 }
-.text-btn-con-btn a{
+
+.text-btn-con-btn a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+}
+
+.branding-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 141px 116px;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 142px;
+    border-radius: 24px;
+}
+
+
+.count-container {
+    display: flex;
+}
+.branding-container h3{
+    margin-bottom: 40px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.count-item p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.count-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-item h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.count-item-1,.count-item-2{
+    margin-right: 167px;
+  
 }
