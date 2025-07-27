@@ -57,17 +57,37 @@
     margin: 152px 267px;
     
 }
-.text-image-section{
-    margin: 141px 116px;
-    
-    
-}
 
 .text-image-container{
     display: flex;
     gap: 220px;
     align-items: center;
+    margin: 141px 116px;
 }
 .image-container img{
     border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+.text-btn-container h3{
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.text-btn-container p{
+    color: #252432a5;
+    margin-bottom: 23px;
+}
+.text-btn-con-btn{
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+}
+.text-btn-con-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
 }
