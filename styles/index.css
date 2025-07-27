@@ -38,6 +38,7 @@
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
+    color: #252432;
 }
 .hero-btn{
     border-radius: 10px;
@@ -55,4 +56,18 @@
     text-align: center;
     margin: 152px 267px;
     
+}
+.text-image-section{
+    margin: 141px 116px;
+    
+    
+}
+
+.text-image-container{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+}
+.image-container img{
+    border-radius: 48px;
 }
